@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "npx -y @modelcontextprotocol/inspector npx -y tsx src/server.ts  ",
+    "dev": "npx -y @modelcontextprotocol/inspector npx -y tsx src/server.ts ",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/server.js",
     "check": "tsc --noEmit"
